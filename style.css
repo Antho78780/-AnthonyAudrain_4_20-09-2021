@@ -653,6 +653,12 @@ a {
 .col-sm-5 {
     width: 100%;
 }
+.col-sm-4 a {
+    font-size: 20px;
+}
+.col-sm-4 h2 {
+    margin-left: 30px;
+}
 .container {
     width: 100%;
 }
