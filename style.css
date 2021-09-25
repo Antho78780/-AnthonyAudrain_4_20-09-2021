@@ -1030,14 +1030,14 @@ footer {
     margin-left: 10%;
 
 }
-.taille {
-    width: 800px;
-}
 .taille2 {
 	width: 600px;
 }
 .col-sm-12 {
 	width: 100%;
+}
+.texte {
+    margin: 50px;
 }
 @media (max-width: 400px) {
     .bloc {
@@ -1051,7 +1051,7 @@ footer {
         text-align: center;
     }
 }
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width:1024px) {
 	.social{
 		display: flex;
 		height: 30px;
@@ -1060,4 +1060,11 @@ footer {
 		margin-left: 40px;
 		height: 30px;
 	}
+    .texte {
+        font-size: 1.2em;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    
 }
