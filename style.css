@@ -286,10 +286,8 @@ a:hover {
 }
 
 .navbar {
-    margin-bottom: 0;
-    z-index: 1;
+    text-align: center;
 }
-
 .navbar-brand {
     height: auto;
     padding: 3px 15px;
@@ -653,9 +651,6 @@ a {
 .col-sm-5 {
     width: 100%;
 }
-.col-sm-4 a {
-    font-size: 20px;
-}
 .col-sm-4 h2 {
     margin-left: 30px;
 }
@@ -740,6 +735,7 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    text-align: center;
 }
 
 .portfolio-thumb {
@@ -1040,10 +1036,35 @@ footer {
 	width: 600px;
 }
 .col-sm-12 {
-	width: 100%;
+	
+width: 100%;
 }
 .texte {
     margin: 50px;
+}
+#form_1 {
+    display: block;
+}
+.site-navigation {
+    padding-right: 150px;
+    list-style-type: none;
+}
+.site-navigation li {
+    padding-left: 50px;
+}
+.row2 {
+    width: 30%;
+}
+.bloc-button {
+    width: 100%;
+}
+.center {
+    text-align: center;
+}
+.sr-only {
+    position: relative;
+    top: 20px;
+    right: 180px;
 }
 @media (max-width: 400px) {
     .bloc {
@@ -1051,7 +1072,6 @@ footer {
         padding-right: 0;
     }
 }
-
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
@@ -1071,6 +1091,26 @@ footer {
         width: 100%;
         margin: auto;
         text-align: center;
+    }
+    .site-navigation {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .site-navigation li {
+        font-size: 17px;
+    }
+    .row2 {
+        width: 85%;
+        margin: auto;
+    }
+    .bloc-button{
+        width: 100%;
+        margin: auto;
+    }
+    .sr-only {
+        position: relative;
+        top: 0;
+        right: 0;
     }
     
 }
