@@ -317,7 +317,7 @@ a:hover {
     z-index: 1;
 }
 .text-center {
-    font-size: 1.5em;
+    font-size: 1.4em;
 }
 .nav > li {
     float: left;
@@ -650,6 +650,7 @@ a {
 }
 .col-sm-5 {
     width: 100%;
+    margin: auto;
 }
 .col-sm-4 h2 {
     margin-left: 30px;
@@ -681,7 +682,7 @@ p {
 }
 
 .tight-width-whitespace {
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 .h1 {
@@ -740,8 +741,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
-	width: 50%;
 	margin: auto;
+    width: 35%;
 }
 
 .portfolio-row {
@@ -1027,17 +1028,12 @@ h4 {
     }
 }	
 footer {
-	margin: auto;
-	width: 100%;
+    width: 100%;
     margin-left: 10%;
-
-}
-.taille2 {
-	width: 600px;
 }
 .col-sm-12 {
-	
 width: 100%;
+margin: auto;
 }
 .texte {
     margin: 50px;
@@ -1045,9 +1041,9 @@ width: 100%;
 #form_1 {
     display: block;
 }
-.site-navigation {
-    padding-right: 150px;
+.site-navigation2 {
     list-style-type: none;
+    padding-right: 170px;
 }
 .site-navigation li {
     padding-left: 50px;
@@ -1087,10 +1083,12 @@ width: 100%;
 		height: 30px;
 	}
     .texte {
-        font-size: 1.2em;
-        width: 100%;
+        font-size: 1.5em;
         margin: auto;
         text-align: center;
+    }
+    .text-center {
+        font-size: 1.2em;
     }
     .site-navigation {
         padding-right: 0px;
@@ -1098,6 +1096,9 @@ width: 100%;
     }
     .site-navigation li {
         font-size: 17px;
+    }
+    .portfolio-thumb {
+        width: 100%;
     }
     .row2 {
         width: 85%;
