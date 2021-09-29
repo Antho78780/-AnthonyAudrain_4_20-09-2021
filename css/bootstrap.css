@@ -1348,12 +1348,9 @@ th {
 :before {
     box-sizing: border-box
 }
-
 html {
     font-size: 10px;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 }
-
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
@@ -1384,7 +1381,6 @@ a:hover {
 
 a:focus {
     outline: thin dotted;
-    outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px
 }
 
@@ -1419,8 +1415,6 @@ img {
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 4px;
-    -webkit-transition: all .2s ease-in-out;
-    -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out
 }
 
@@ -1442,7 +1436,6 @@ hr {
     padding: 0;
     margin: -1px;
     overflow: hidden;
-    clip: rect(0, 0, 0, 0);
     border: 0
 }
 
@@ -1453,7 +1446,6 @@ hr {
     height: auto;
     margin: 0;
     overflow: visible;
-    clip: auto
 }
 
 [role=button] {
@@ -1904,7 +1896,6 @@ kbd {
     color: #fff;
     background-color: #333;
     border-radius: 3px;
-    -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .25);
     box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .25)
 }
 
@@ -1912,7 +1903,6 @@ kbd kbd {
     padding: 0;
     font-size: 100%;
     font-weight: 700;
-    -webkit-box-shadow: none;
     box-shadow: none
 }
 
@@ -2992,7 +2982,6 @@ table th[class*=col-] {
         width: 100%;
         margin-bottom: 15px;
         overflow-y: hidden;
-        -ms-overflow-style: -ms-autohiding-scrollbar;
         border: 1px solid #ddd
     }
     .table-responsive>.table {
@@ -3060,15 +3049,12 @@ label {
 }
 
 input[type=search] {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box
 }
 
 input[type=checkbox],
 input[type=radio] {
     margin: 4px 0 0;
-    margin-top: 1px\9;
     line-height: normal
 }
 
@@ -3090,7 +3076,6 @@ input[type=file]:focus,
 input[type=checkbox]:focus,
 input[type=radio]:focus {
     outline: thin dotted;
-    outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px
 }
 
@@ -3114,31 +3099,13 @@ output {
     background-image: none;
     border: 1px solid #ccc;
     border-radius: 4px;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
-    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
-    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
 }
 
 .form-control:focus {
     border-color: #66afe9;
     outline: 0;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)
-}
-
-.form-control::-moz-placeholder {
-    color: #999;
-    opacity: 1
-}
-
-.form-control:-ms-input-placeholder {
-    color: #999
-}
-
-.form-control::-webkit-input-placeholder {
-    color: #999
 }
 
 .form-control[disabled],
@@ -3156,18 +3123,6 @@ fieldset[disabled] .form-control {
 textarea.form-control {
     height: auto
 }
-
-input[type=search] {
-    -webkit-appearance: none
-}
-
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-    input[type=date].form-control,
-    input[type=time].form-control,
-    input[type=datetime-local].form-control,
-    input[type=month].form-control {
-        line-height: 34px
-    }
     .input-group-sm input[type=date],
     .input-group-sm input[type=time],
     .input-group-sm input[type=datetime-local],
@@ -3187,7 +3142,6 @@ input[type=search] {
     input[type=datetime-local].input-lg,
     input[type=month].input-lg {
         line-height: 46px
-    }
 }
 
 .form-group {
@@ -3216,7 +3170,6 @@ input[type=search] {
 .radio input[type=radio],
 .radio-inline input[type=radio] {
     position: absolute;
-    margin-top: 4px\9;
     margin-left: -20px
 }
 
@@ -3418,13 +3371,11 @@ textarea.input-lg {
 
 .has-success .form-control {
     border-color: #3c763d;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075)
 }
 
 .has-success .form-control:focus {
     border-color: #2b542c;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #67b168;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #67b168
 }
 
@@ -3453,13 +3404,11 @@ textarea.input-lg {
 
 .has-warning .form-control {
     border-color: #8a6d3b;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075)
 }
 
 .has-warning .form-control:focus {
     border-color: #66512c;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #c0a16b;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #c0a16b
 }
 
@@ -3488,13 +3437,11 @@ textarea.input-lg {
 
 .has-error .form-control {
     border-color: #a94442;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075)
 }
 
 .has-error .form-control:focus {
     border-color: #843534;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #ce8483;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #ce8483
 }
 
@@ -3629,12 +3576,8 @@ textarea.input-lg {
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
-    -ms-touch-action: manipulation;
     touch-action: manipulation;
     cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
     user-select: none;
     background-image: none;
     border: 1px solid transparent;
@@ -3663,7 +3606,6 @@ textarea.input-lg {
 .btn:active {
     background-image: none;
     outline: 0;
-    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
     box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125)
 }
 
@@ -3671,8 +3613,6 @@ textarea.input-lg {
 .btn[disabled],
 fieldset[disabled] .btn {
     cursor: not-allowed;
-    filter: alpha(opacity=65);
-    -webkit-box-shadow: none;
     box-shadow: none;
     opacity: .65
 }
@@ -4137,8 +4077,6 @@ fieldset[disabled] .btn-danger:hover {
 .btn-link:active,
 .btn-link[disabled],
 fieldset[disabled] .btn-link {
-    background-color: transparent;
-    -webkit-box-shadow: none;
     box-shadow: none
 }
 
@@ -4153,7 +4091,6 @@ fieldset[disabled] .btn-link {
 .btn-link:hover {
     color: #23527c;
     text-decoration: underline;
-    background-color: transparent
 }
 
 .btn-link[disabled]:focus,
@@ -4234,14 +4171,7 @@ tbody.collapse.in {
     position: relative;
     height: 0;
     overflow: hidden;
-    -webkit-transition-timing-function: ease;
-    -o-transition-timing-function: ease;
-    transition-timing-function: ease;
-    -webkit-transition-duration: .35s;
-    -o-transition-duration: .35s;
     transition-duration: .35s;
-    -webkit-transition-property: height, visibility;
-    -o-transition-property: height, visibility;
     transition-property: height, visibility
 }
 
@@ -4252,7 +4182,6 @@ tbody.collapse.in {
     margin-left: 2px;
     vertical-align: middle;
     border-top: 4px dashed;
-    border-top: 4px solid\9;
     border-right: 4px solid transparent;
     border-left: 4px solid transparent
 }
@@ -4280,12 +4209,10 @@ tbody.collapse.in {
     text-align: left;
     list-style: none;
     background-color: #fff;
-    -webkit-background-clip: padding-box;
     background-clip: padding-box;
     border: 1px solid #ccc;
     border: 1px solid rgba(0, 0, 0, .15);
     border-radius: 4px;
-    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175)
 }
 
@@ -4610,7 +4537,6 @@ tbody.collapse.in {
 [data-toggle=buttons]>.btn-group>.btn input[type=checkbox],
 [data-toggle=buttons]>.btn-group>.btn input[type=radio] {
     position: absolute;
-    clip: rect(0, 0, 0, 0);
     pointer-events: none
 }
 
@@ -5506,7 +5432,6 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 
 .navbar-inverse {
     background-color: #222;
-    border-color: #080808
 }
 
 .navbar-inverse .navbar-brand {
@@ -7576,7 +7501,6 @@ button.close {
 .carousel-control:hover {
     color: #fff;
     text-decoration: none;
-    filter: alpha(opacity=90);
     outline: 0;
     opacity: .9
 }
