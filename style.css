@@ -1029,6 +1029,9 @@ margin: auto;
 .navbar {
     text-align: center;
 }
+.col-sm-4 a {
+    padding-bottom: 35px;
+}
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
