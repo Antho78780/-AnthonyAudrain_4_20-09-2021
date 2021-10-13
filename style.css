@@ -786,7 +786,11 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
-
+.position1{
+        position: relative;
+        top: 20px;
+        right: 180px; 
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -989,8 +993,8 @@ margin: auto;
 .site-navigation li {
     padding-left: 50px;
 }
-.row2 {
-    width: 30%;
+.row2{
+   width: 100%;
 }
 .row{
 	width: 100%;
@@ -1007,11 +1011,6 @@ margin: auto;
 }
 .cente {
     text-align: center;
-}
-.sr-only {
-    position: relative;
-    top: 20px;
-    right: 180px;
 }
 .navbar {
     text-align: center;
