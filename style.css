@@ -32,7 +32,6 @@ a:hover {
     background-size: cover;
     position: relative;
 }
-
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
@@ -784,7 +783,10 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.avif");
+}
+.contact{
+    background-image: url("img/la-chouette-agence.avif");
 }
 .position1{
         position: relative;
@@ -864,7 +866,7 @@ h4 {
         margin-left: 0;
         margin-right: 0;
     }
-    .site-navigation {
+    .site-navigatio {
         position: inherit;
         transform: none;
     }
