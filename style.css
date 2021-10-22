@@ -71,7 +71,6 @@ a:hover {
 
 .bloc-bg-texture::before {
     content: "";
-    background-size: 2px 2px;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -787,11 +786,6 @@ h4 {
 }
 .contact{
     background-image: url("img/la-chouette-agence.avif");
-}
-.position1{
-        position: relative;
-        top: 20px;
-        right: 180px; 
 }
 @media (max-width: 1024px) {
     .bloc {
