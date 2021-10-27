@@ -313,7 +313,6 @@ a:hover {
 .navbar-toggle .icon-bar {
     background-color: rgba(0, 0, 0, .5);
     width: 50px;
-    display: none;
 }
 
 .nav-invert .navbar .nav {
@@ -1073,7 +1072,7 @@ margin-bottom: 40px;
     .sr-only {
         position: relative;
         display: none;
-        top: 0;
+        top: 10%;
         right: 0;
     }
     li {
