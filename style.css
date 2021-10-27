@@ -1039,8 +1039,8 @@ margin-bottom: 40px;
        justify-content: center;
 	}
     .logo {
-        width: 85%;
-        height: 60px;
+        width: 100%;
+        height: auto;
     }
     .texte {
         font-size: 1.5em;
@@ -1074,6 +1074,10 @@ margin-bottom: 40px;
     }
     li a {
         padding: 16px;
+    }
+    .sr-only {
+        position: relative;
+        right: 90px;
     }
    
 }
