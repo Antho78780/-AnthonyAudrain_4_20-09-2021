@@ -306,13 +306,14 @@ a:hover {
     border: 0px;
 }
 
-.navbar-toggle:hover {
+.navbar-togglE:hover {
     background: transparent!important;
 }
 
 .navbar-toggle .icon-bar {
     background-color: rgba(0, 0, 0, .5);
-    width: 26px;
+    width: 50px;
+    display: none;
 }
 
 .nav-invert .navbar .nav {
@@ -899,7 +900,7 @@ h4 {
         box-shadow: none;
     }
     .navbar-brand {
-        max-height: 40px;
+        max-height: 50px;
         width: auto;
     }
     .nav-invert .navbar-header {
@@ -979,9 +980,6 @@ margin-bottom: 40px;
 #form_1 {
     display: block;
 }
-.site-navigation li {
-    padding-left: 50px;
-}
 .row2{
    width: 100%;
   display: flex;
@@ -1018,7 +1016,7 @@ margin-bottom: 40px;
     width: 100%;
 } 
 .logo {
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 .logo2 {
@@ -1058,7 +1056,7 @@ margin-bottom: 40px;
         padding-left: 0px;
     }
     .site-navigation li {
-        font-size: 17px;
+        font-size: 25px
     }
     .portfolio-thumb {
         width: 100%;
@@ -1074,11 +1072,11 @@ margin-bottom: 40px;
     }
     .sr-only {
         position: relative;
+        display: none;
         top: 0;
         right: 0;
     }
     li {
-        height: 30px;
         padding-top: 10px;
     }
     li a {
